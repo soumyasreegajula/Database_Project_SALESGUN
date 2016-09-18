@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/completed_tasks_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/CompletedTaskBrandImage"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="5dp"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/CompletedTaskBrandName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/black"
+            android:layout_alignTop="@+id/CompletedTaskBrandImage"
+            android:layout_alignLeft="@+id/CompletedTaskCredits"
+            android:layout_alignStart="@+id/CompletedTaskCredits" />
+
+        <TextView
+            android:id="@+id/CompletedTaskDescription"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/CompletedTaskBrandImage"
+            android:layout_toRightOf="@+id/CompletedTaskBrandImage"
+            android:layout_toEndOf="@+id/CompletedTaskBrandImage"
+            android:layout_below="@+id/CompletedTaskBrandName" />
+
+        <TextView
+            android:id="@+id/CompletedTaskCredits"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/CompletedTaskBrandImage"
+            android:layout_toRightOf="@+id/CompletedTaskBrandImage"
+            android:layout_toEndOf="@+id/CompletedTaskBrandImage" />
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>

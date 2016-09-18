@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">SalesGun</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+
+    <string name="nav_item_brands">Brands</string>
+    <string name="nav_item_tasks">Tasks</string>
+    <string name="nav_item_friends">Friends</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_brands</item>
+        <item>@string/nav_item_tasks</item>
+        <item>@string/nav_item_friends</item>
+    </string-array>
+
+    <string name="title_brands">Brands</string>
+    <string name="title_tasks">Targets</string>
+    <string name="title_friends">Friends</string>
+
+    <array name="nav_drawer_label_icons">
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_whats_hot</item>
+        <item>@drawable/ic_communities</item>
+    </array>
+
+
+    <string-array name="tabs">
+    <item>TAB 1</item>
+    <item>TAB 2</item>
+        <item>TAB 3</item>
+        <item>TAB 4</item>
+    </string-array>
+
+    <array name="nav_drawer_status_icons">
+        <item>@drawable/add1</item>
+        <item>@drawable/tick</item>
+    </array>
+
+
+    <array name="nav_drawer_menu_icons">
+        <item>@drawable/dominos_pizza</item>
+        <item>@drawable/nike</item>
+        <item>@drawable/samsung</item>
+        <item>@drawable/dominos_pizza</item>
+        <item>@drawable/nike</item>
+        <item>@drawable/samsung</item>
+        <item>@drawable/dominos_pizza</item>
+        <item>@drawable/nike</item>
+        <item>@drawable/samsung</item>
+        <item>@drawable/dominos_pizza</item>
+        <item>@drawable/nike</item>
+        <item>@drawable/samsung</item>
+        <item>@drawable/dominos_pizza</item>
+        <item>@drawable/nike</item>
+        <item>@drawable/samsung</item>
+        <item>@drawable/dominos_pizza</item>
+        <item>@drawable/nike</item>
+        <item>@drawable/samsung</item>
+        <item>@drawable/dominos_pizza</item>
+        <item>@drawable/nike</item>
+        <item>@drawable/samsung</item>
+        <item>@drawable/dominos_pizza</item>
+        <item>@drawable/nike</item>
+        <item>@drawable/samsung</item>
+        <item>@drawable/dominos_pizza</item>
+        <item>@drawable/nike</item>
+        <item>@drawable/samsung</item>
+        <item>@drawable/dominos_pizza</item>
+        <item>@drawable/nike</item>
+        <item>@drawable/samsung</item>
+    </array>
+
+
+    <string name="sending_sms">We\'re sending an sms to</string>
+    <string name="flashcalling">We\'re requesting a flash call to</string>
+    <string name="inprogress">Verification in\nprogress</string>
+    <string name="verified">Verification successful</string>
+    <string name="failed">Verification failed</string>
+
+
+    <string name="string_choose_file">Update Picture</string>
+    <string name="string_upload_image">Save</string>
+    <string name="string_view_image">View</string>
+</resources>
+
+
